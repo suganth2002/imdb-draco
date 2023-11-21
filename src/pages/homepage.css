@@ -1,0 +1,10 @@
+*{
+    background-color: black;
+}
+
+.homepage{
+    display: flex !important;
+    flex-wrap: wrap;
+    width: 100%;
+}
+ 
