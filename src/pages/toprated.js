@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
 import RatedCard from '../components/Ratedcard'
+ 
 
 export const TopRated = () => {
   const [TopRated,setTopRated]=useState([])

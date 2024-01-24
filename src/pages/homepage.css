@@ -2,9 +2,8 @@
     background-color: black;
 }
 
-.homepage{
+.homepage,.toprated,.column,.search{
     display: flex !important;
     flex-wrap: wrap;
     width: 100%;
 }
- 
