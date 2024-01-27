@@ -5,6 +5,7 @@
     overflow: hidden;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
+    width: 300px;
     transition: transform 0.3s ease-out; 
   }
   .container:hover{
@@ -27,7 +28,7 @@
     border-radius: 5px;
   } */
   .row{
-    width: 500px;
+    width: 400px;
   }
   
   
@@ -42,3 +43,8 @@
   
 }
 
+@media screen and (max-width:480px) {
+  .container{
+    width: 95%;
+  }
+}

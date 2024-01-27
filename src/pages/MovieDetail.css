@@ -33,6 +33,7 @@
 .movie__poster {
     width:300px;
     border-radius: 10px;
+    
     box-shadow: rgba(0, 0, 0, 0.86) 0px 22px 40px 6px;
 }
 
@@ -152,4 +153,27 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+@media screen and (max-width: 680px){
+    .movie__detail{
+        flex-direction: column;
+        align-items: center;
+    }
+    .movie{
+        justify-content: center;
+        align-items: center;
+    }
+    .movie__detailLeft{
+        margin-right: 0;
+    }
+    .movie__intro{
+        display: none;
+    }
+    .movie__detail{
+        bottom: 0;
+    }
+    .movie__poster{
+        width: 80%;
+    }
+    
 }

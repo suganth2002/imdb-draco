@@ -1,6 +1,8 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
 import RatedCard from '../components/Ratedcard'
+import './homepage.css'
+import Card from '../components/card'
  
 
 export const TopRated = () => {
@@ -24,7 +26,7 @@ console.log(TopRated)
     
     <div className="toprated">
       {TopRated.map(TopRated => (
-       <RatedCard key={TopRated.id} backdrop_path={TopRated.backdrop_path} original_title={TopRated.original_title} id={TopRated.id}  />
+       <Card key={TopRated.id} backdrop_path={TopRated.backdrop_path} original_title={TopRated.original_title} id={TopRated.id}  />
         
       ))}
     </div>

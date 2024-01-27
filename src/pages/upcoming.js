@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState,useEffect } from 'react'
 import Upcom from '../components/Upcomcard'
+import Card from '../components/card'
 
 
 export const Upcoming = () => {
@@ -20,7 +21,7 @@ console.log(Upcoming)
     <>
    <div className="column">
       {Upcoming.map(Upmovie => (
-       <Upcom key={Upmovie.id} backdrop_path={Upmovie.backdrop_path} original_title={Upmovie.original_title}  id={Upmovie.id}/>
+       <Card key={Upmovie.id} backdrop_path={Upmovie.backdrop_path} original_title={Upmovie.original_title}  id={Upmovie.id}/>
         
       ))}
     </div>

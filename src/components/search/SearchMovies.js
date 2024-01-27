@@ -35,7 +35,7 @@ const SearchMovies = () => {
   return (
     <div className='search'>
       {movie.map(movie => (
-       <Card key={movie.id} backdrop_path={movie.poster_path} original_title={movie.original_title}  />
+       <Card key={movie.id} backdrop_path={movie.poster_path} original_title={movie.original_title} id={movie.id}  />
         
       ))
       }

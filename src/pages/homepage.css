@@ -2,8 +2,15 @@
     background-color: black;
 }
 
-.homepage,.toprated,.column,.search{
+.homepage,.column,.search{
     display: flex !important;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.toprated{
+    display: flex !important;
+    justify-content: center;
     flex-wrap: wrap;
     width: 100%;
 }

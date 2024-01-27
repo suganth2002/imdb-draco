@@ -25,6 +25,7 @@ function App() {
           <Route path="/upcoming" element={ <Upcoming />} />
           <Route path="/movie" element={<SearchMovies />} />
           <Route path="/movie/:id" element={<MovieDesc />} />
+          
 
         </Routes>
       </Router>
